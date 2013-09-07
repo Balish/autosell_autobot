@@ -525,6 +525,11 @@ span.left {
     
 }
 /** BALISH STYLE START HERE **/
+#item_selected{
+
+}
+
+/** ====cars browse ======**/
 #cars_browse{
     position: relative;
     margin: 5px auto;
@@ -541,6 +546,113 @@ span.left {
 }
 #cars_browse a{
     color: #696969;
+}
+/** ====ADVERT box ======**/
+.advert_box{
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+.advert_main{
+    margin: 0px auto;
+    position: relative;
+    background-color: #313233;
+    color: white;
+  /**  overflow: auto;**/
+}
+/** ====ADVERT main header ======**/
+.adv_main_header{
+    margin: 0 30px auto;
+    position: relative;
+}
+.adv_mh_title{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    margin: 20px auto;
+}
+.adv_car_model{
+    margin: 1px;
+    font-size: 2.5em;
+}
+.adv_title_tools{
+    position: relative;
+    margin: 25px auto;
+}
+.adv_tools{
+    display: inline-block;
+    list-style: none;
+    margin: 0 auto;
+    padding-left: 5px;
+}
+.adv_tools li{
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 1.4em;
+}
+.adv_tools li a{
+     color: white;
+     padding-left: 20px;
+ }
+.adv_tools li a:hover{
+    color: #368ccc;
+}
+#adv_t_add{
+    background: url('../img/adv_add.png') no-repeat;
+}
+#adv_t_penalty{
+    background: url('../img/adv_penalty.png') no-repeat;
+}
+#adv_t_print{
+    background: url('../img/adv_print.png') no-repeat;
+}
+.adv_price{
+    margin: 1px;
+    font-size: 2.6em;
+    font-weight: normal;
+    padding-left: 30px;
+    width: auto;
+    margin-top: -53px;
+    display: block;
+}
+.adv_tag{
+    background: url('../img/adv_header_tag.png') no-repeat;
+    height: 82px;
+    width: 220px;
+    margin-top: -27px;
+}
+#adv_tag_corner{
+    display: block;
+    position: absolute;
+    top: -27px;
+    left: -10px;
+}
+.adv_mh_tagprice{
+    display: inline-block;
+    position: relative;
+    margin: 20px auto;
+    float: right;
+    width: 20%;
+}
+.advert_main_content{
+    margin: 10px auto;
+    position: relative;
+    width: 100%;
+}
+/** ADVERT MAIN CONTENT **/
+.adv_c_tab1,.adv_c_tab2{
+    position: relative;
+    margin: 0 30px;
+    width: 20%;
+    float: left;
+    font-size: 1.4em;
+}
+.adv_table{
+    display: block;
+}
+.adv_table tr{
+    display: block;
+    margin: 20px 10px auto;
 }
 /** BALISH STYLE END HERE **/
 
