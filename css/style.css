@@ -539,13 +539,16 @@ span.left {
 #cars_browse ul{
     display: inline-block;
     padding-left: 0px;
-    font-size: 1em;
+    font-size: 1.4em;
     text-transform: uppercase;
     text-align: left;
     /**color: #696969;**/
 }
 #cars_browse a{
     color: #696969;
+}
+#cars_browse a:hover{
+    color: #368ccc;
 }
 /** ====ADVERT box ======**/
 .advert_box{
@@ -649,10 +652,16 @@ span.left {
     width: 20%;
     height: 100%;
     float: left;
-    font-size: 1.4em;
+    font-size: 1.6em;
 }
 .adv_table{
     display: block;
+    width: 100%;
+}
+.adv_table tbody{
+    display: block;
+    width: 100%;
+    padding: 0px 10px;
 }
 .adv_table tr{
     display: block;
@@ -660,6 +669,7 @@ span.left {
 }
 .adv_t1_social{
     margin-top: 20%;
+    margin-bottom: 10px;
     display: block;
     text-align: left;
     width: 110%;
@@ -693,6 +703,76 @@ span.left {
     display: inline-block;
     margin: 0px 10px auto;
     font-weight: normal;
+}
+/** ADVERT EQUIP **/
+.advert_equip{
+    display: block;
+    position: relative;
+    margin: 30px auto;
+    width: 100%;
+}
+.equip_header{
+    display: block;
+    position: relative;
+    margin: 0px 30px auto;
+    color: #313233;
+}
+.equip_header h3{
+    font-size: 1.7em;
+    font-weight: bold;
+}
+.equip_content{
+    position: relative;
+   /* margin: 0px 30px auto;*/
+    width: 100%;
+    overflow: auto;
+    color: #313233;
+    font-size: 1.4em;
+}
+.equip_tab1{
+     display: block;
+     position: relative;
+     margin: 0px 30px auto;
+     width: 18%;
+     float: left;
+ }
+.equip_tab2{
+    display: block;
+    position: relative;
+    margin: 0px 30px auto;
+    width: 18%;
+    float: left;
+}
+.equip_tab3{
+    display: block;
+    position: relative;
+    margin: 0px 30px auto;
+    width: 18%;
+    float: left;
+}
+.equip_tab4{
+    display: block;
+    position: relative;
+    margin: 0px 30px auto;
+    width: 18%;
+    float: right;
+}
+.equip_table{
+    display: block;
+    width: 100%;
+}
+.equip_table thead{
+    color:#368ccc;
+    font-weight: bold;
+   /* margin-bottom: 10px;;*/
+}
+.equip_table thead tr{
+    display: block;
+    margin: 0px auto;
+}
+.equip_table tr{
+    display: block;
+    margin: 5px auto;
 }
 /** BALISH STYLE END HERE **/
 
