@@ -774,6 +774,37 @@ span.left {
     display: block;
     margin: 5px auto;
 }
+/** ADVERT COMMENTS **/
+.advert_comments{
+    display: block;
+    position: relative;
+    margin: 20px auto;
+    width: 100%;
+    overflow: auto;
+}
+.comments_box{
+    position: relative;
+    margin:0px 30px auto;
+    overflow: auto;
+    border: 1px #bcbcbc solid;
+    font-size: ;
+}
+.comment_tab1{
+    display: block;
+    position: relative;
+    width: 45%;
+    float: left;
+    border-right: 1px #bcbcbc solid;
+}
+.comment_tab2{
+    display: block;
+    position: relative;
+    width: 45%;
+    float: left;
+}
+.comment_tab_h{
+
+}
 /** BALISH STYLE END HERE **/
 
 
