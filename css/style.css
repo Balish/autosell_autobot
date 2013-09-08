@@ -792,18 +792,55 @@ span.left {
 .comment_tab1{
     display: block;
     position: relative;
-    width: 45%;
+    width: 49%;
     float: left;
     border-right: 1px #bcbcbc solid;
 }
 .comment_tab2{
     display: block;
     position: relative;
-    width: 45%;
+    width: 49%;
     float: left;
 }
 .comment_tab_h{
-
+    border-bottom:1px #bcbcbc solid ;
+    width: 104%;
+}
+.comment_tab_h h3{
+    font-size: 1.5em;
+    color: #313233;
+    padding-left: 20px;
+}
+.comment_content{
+    display: block;
+    font-size: 1.3em;
+    padding: 10px;
+    color: #313233;
+}
+.comment_footer{
+    margin: 10px 20px auto;
+    font-size: 1.5em;
+    color: #313233;
+}
+.c_footer_place h3{
+    font-size: 1.0em;
+}
+.c_footer_contacts{
+    width: 100%;
+    overflow: auto;
+}
+.footer_tab{
+    margin: 10px auto;
+    position: relative;
+    width: 40%;
+    float: left;
+}
+.f_new_message{
+    margin: 10px auto;
+}
+#new_message{
+    font-weight: bold;
+    color: #368ccc;
 }
 /** BALISH STYLE END HERE **/
 
