@@ -612,7 +612,7 @@ span.left {
 }
 .adv_price{
     margin: 1px;
-    font-size: 2.6em;
+    font-size: 2.4em;
     font-weight: normal;
     padding-left: 30px;
     width: 100%;
@@ -755,7 +755,7 @@ span.left {
     position: relative;
     margin: 0px 30px auto;
     width: 18%;
-    float: right;
+    float: left;
 }
 .equip_table{
     display: block;
@@ -819,9 +819,11 @@ span.left {
     color: #313233;
 }
 .comment_footer{
+    position: relative;
     margin: 10px 20px auto;
     font-size: 1.5em;
     color: #313233;
+    margin-top: 60px;
 }
 .c_footer_place h3{
     font-size: 1.0em;
