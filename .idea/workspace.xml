@@ -24,10 +24,10 @@
         <splitter split-orientation="horizontal" split-proportion="0.5">
           <split-first>
             <leaf>
-              <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
+              <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/index.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="416" column="40" selection-start="19009" selection-end="19023" vertical-scroll-proportion="9.947735">
+                    <state line="423" column="39" selection-start="19376" selection-end="19376" vertical-scroll-proportion="0.4076655">
                       <folding />
                     </state>
                   </provider>
@@ -36,9 +36,9 @@
               <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/css/style.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="668" column="1" selection-start="10638" selection-end="10638" vertical-scroll-proportion="0.0">
+                    <state line="672" column="1" selection-start="10689" selection-end="10689" vertical-scroll-proportion="0.0">
                       <folding>
-                        <marker date="1378745783564" expanded="true" signature="564:616" placeholder="{...}" />
+                        <marker date="1378758136363" expanded="true" signature="589:641" placeholder="{...}" />
                       </folding>
                     </state>
                   </provider>
@@ -55,12 +55,12 @@
           </split-first>
           <split-second>
             <leaf>
-              <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+              <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/css/style.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="825" column="17" selection-start="13394" selection-end="13394" vertical-scroll-proportion="0.4715447">
+                    <state line="563" column="23" selection-start="8704" selection-end="8704" vertical-scroll-proportion="0.38861787">
                       <folding>
-                        <marker date="1378745783564" expanded="true" signature="564:616" placeholder="{...}" />
+                        <marker date="1378758136363" expanded="true" signature="589:641" placeholder="{...}" />
                       </folding>
                     </state>
                   </provider>
@@ -163,6 +163,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autosell_autobot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autosell_autobot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -236,8 +250,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="35" width="1930" height="1050" extended-state="7" />
-    <editor active="true" />
+    <frame x="-5" y="35" width="1930" height="1050" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -321,7 +335,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="668" column="1" selection-start="10638" selection-end="10638" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1378745783564" expanded="true" signature="564:616" placeholder="{...}" />
+            <marker date="1378758136363" expanded="true" signature="589:641" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -342,7 +356,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="546" column="0" selection-start="8478" selection-end="8478" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1378745783564" expanded="true" signature="564:616" placeholder="{...}" />
+            <marker date="1378758136363" expanded="true" signature="589:641" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -356,7 +370,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="538" column="21" selection-start="8352" selection-end="8352" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1378745783564" expanded="true" signature="564:616" placeholder="{...}" />
+            <marker date="1378758136363" expanded="true" signature="589:641" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -384,7 +398,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="538" column="21" selection-start="8352" selection-end="8352" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1378745783564" expanded="true" signature="564:616" placeholder="{...}" />
+            <marker date="1378758136363" expanded="true" signature="589:641" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -404,19 +418,19 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="416" column="40" selection-start="19009" selection-end="19023" vertical-scroll-proportion="9.947735">
-          <folding />
+        <state line="672" column="1" selection-start="10689" selection-end="10689" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1378758136363" expanded="true" signature="589:641" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="825" column="17" selection-start="13394" selection-end="13394" vertical-scroll-proportion="0.4715447">
-          <folding>
-            <marker date="1378745783564" expanded="true" signature="564:616" placeholder="{...}" />
-          </folding>
+        <state line="423" column="39" selection-start="19376" selection-end="19376" vertical-scroll-proportion="0.4076655">
+          <folding />
         </state>
       </provider>
     </entry>

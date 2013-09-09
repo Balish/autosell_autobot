@@ -19,6 +19,9 @@ body {
     font-size: 10px;
     font-family: Geneva, Arial, Helvetica, sans-serif;
 }
+img{
+    border: none;
+}
 
 a {
     text-decoration: none;
@@ -561,6 +564,7 @@ span.left {
     position: relative;
     background-color: #313233;
     color: white;
+    padding-bottom: 20px;
   /**  overflow: auto;**/
 }
 /** ====ADVERT main header ======**/
@@ -889,6 +893,38 @@ span.left {
 }
 .c_message_form a{
     color: #368ccc;
+}
+.sp_offer_grid{
+    position: relative;
+    margin: 30px 30px auto;
+    padding: 0px 10px;
+}
+.sp_offer_grid h3{
+    font-size: 1.7em;
+    color: #313233;
+}
+.sp_offer_grid:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.sp_offer_box{
+    position: relative;
+    float: left;
+    width: 19.99%;
+    padding-left: 10px;
+    padding-top: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 1.3em;
+}
+.sp_offer_box p{
+    margin: 5px auto;
+}
+.sp_offer_box:last-of-type{
+    padding-right: 0;
 }
 /** BALISH STYLE END HERE **/
 
