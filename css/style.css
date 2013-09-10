@@ -692,6 +692,10 @@ span.left {
     float: right;
     margin: 0 30px auto;
 }
+.adv_main_img{
+    display: block;
+    overflow: auto;
+}
 #adv_img_previous{
     padding: 0px 1px;
     list-style: none;
@@ -897,7 +901,6 @@ span.left {
 .sp_offer_grid{
     position: relative;
     margin: 30px 30px auto;
-    padding: 0px 10px;
 }
 .sp_offer_grid h3{
     font-size: 1.7em;
@@ -913,7 +916,7 @@ span.left {
     position: relative;
     float: left;
     width: 19.99%;
-    padding-left: 10px;
+    padding-left: 50px;
     padding-top: 10px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -925,6 +928,110 @@ span.left {
 }
 .sp_offer_box:last-of-type{
     padding-right: 0;
+}
+.scroll_img1{
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    float: left;
+    top: 200px;
+}
+.scroll_img2{
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    float: right;
+    top: 200px;
+}
+.f_news_deep{
+    position: relative;
+    margin: 30px 30px auto;
+    border-bottom:1px #bcbcbc solid;
+    border-top:1px #bcbcbc solid;
+}
+.f_news_deep:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.f_news{
+     position: relative;
+     float: left;
+     width: 19.99%;
+     margin:10px auto ;
+     padding-right: 30px;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+     font-size: 1.3em;
+ }
+.f_news,.f_posts i{
+    color: #8a8b8c;
+}
+.f_news,.f_posts p{
+    margin: 10px auto;
+    color:#313233;
+}
+.f_deep_header{
+    font-size: 1.3em;
+    color:#313233;
+    margin: 0px auto;
+}
+#f_deep_all{
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    color: #8a8b8c;
+}
+#f_deep_all:hover{
+    color: #2567cc;
+}
+.f_posts{
+    position: relative;
+    float: left;
+    width: 39.99%;
+    padding-right: 30px;
+    margin:10px auto ;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 1.3em;
+}
+.f_p_h{
+    margin-bottom: 20px;
+}
+.f_post_box{
+    position: relative;
+    overflow: auto;
+    margin-bottom:10px ;
+}
+.f_post_box_h{
+    color: #4d4e4f;
+}
+.f_post_box_h:hover{
+    color: #2567cc;
+}
+.f_post_img{
+    display: block;
+    position: relative;
+    float: left;
+    padding-right: 20px;
+}
+.f_adv_block{
+    position: relative;
+    float: right;
+    width: 39.99%;
+    margin: 20px auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 1.3em;
+    overflow: auto;
+}
+.f_adv_img{
+    display: block;
+    position: relative;
+    float: right;
 }
 /** BALISH STYLE END HERE **/
 
