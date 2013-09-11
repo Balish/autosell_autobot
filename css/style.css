@@ -533,13 +533,13 @@ span.left {
 }
 
 /** ====cars browse ======**/
-#cars_browse{
+.cars_browse{
     position: relative;
     margin: 5px auto;
     height: 34px;
     /**background: url('../img/menu_background.png') repeat-x;**/
 }
-#cars_browse ul{
+.cars_browse ul{
     display: inline-block;
     padding-left: 0px;
     font-size: 1.4em;
@@ -547,10 +547,10 @@ span.left {
     text-align: left;
     /**color: #696969;**/
 }
-#cars_browse a{
+.cars_browse a{
     color: #696969;
 }
-#cars_browse a:hover{
+.cars_browse a:hover{
     color: #368ccc;
 }
 /** ====ADVERT box ======**/
