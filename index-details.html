@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -80,7 +80,7 @@
                     <input class="sell_det_input" name="sell_city" type="text">
                 </div>
                 <div class="input_block">
-                    <input class="sell_det_input" name="sell_number" type="number">
+                    <input class="sell_det_input" name="sell_number" type="text">
                 </div>
                 <div class="input_block">
                     <img id="sell_capcha" src="">
@@ -107,6 +107,7 @@
                 </div>
             </form>
         </div>
+        <!-- CAR INFO-->
         <div class="car_info">
             <h3 class="car_info header">Заполните пожалуйста информацию об автомобиле</h3>
             <form class="car_info_form" name="car_info_form">
@@ -119,79 +120,77 @@
                 </div>
                 <div class="input_block">
                     <label for="car_years">Год</label>
-                    <input class="car_text_input" type="number" id="car_years">
+                    <input class="car_text_input" type="number" min="1900"  id="car_years">
                 </div>
                 <div class="input_block">
-                    <input list="car_drive" class="car_input" name="car_drive">
-                    <datalist id="car_drive">
-                        <option value="4x4">
-                        <option value="front">
-                    </datalist>
+                    <select class="car_input" name="car_drive" title="Привод" >
+                        <option selected disabled>Привод</option>
+                        <option>4x4</option>
+                        <option>2x Front</option>
+                        <option>2x Back</option>
+                    </select>
                 </div>
                 <div class="input_block">
-                    <input list="car_status" class="car_input" name="car_status">
-                    <datalist id="car_status">
-                        <option value="new">
-                        <option value="used">
-                    </datalist>
+                    <select list="car_status" class="car_input" name="car_status" title="Cостояние">
+                        <option selected disabled>Состояние</option>
+                        <option>new</option>
+                        <option>used</option>
+                    </select>
                 </div>
                 <div class="input_block">
-                    <input list="car_model" class="car_input" name="car_model">
-                    <datalist id="car_model">
-
-                    </datalist>
+                    <select list="car_model" class="car_input" name="car_model" title="Модель">
+                        <option selected disabled>Модель</option>
+                    </select>
                 </div>
                 <div class="input_block">
                     <label for="car_milage">Пробег</label>
-                    <input class="car_text_input" type="number" id="car_milage">
+                    <input class="car_text_input" type="number"  min="0" id="car_milage">
                     <label>км.</label>
                 </div>
                 <div class="input_block">
-                    <input list="car_side" class="car_input" name="car_side">
-                    <datalist id="car_side">
-                        <option value="right">
-                        <option value="left">
-                    </datalist>
+                    <select list="car_side" class="car_input" name="car_side" title="Руль">
+                        <option selected disabled>Руль</option>
+                        <option>right</option>
+                        <option>left</option>
+                    </select>
                 </div>
                 <div class="input_block">
-                    <input list="car_barter" class="car_input" name="car_barter">
-                    <datalist id="car_barter">
-                        <option value="">
-                        <option value="">
-                    </datalist>
+                    <select list="car_barter" class="car_input" name="car_barter" title="Обмен">
+                        <option disabled selected>Обмен</option>
+                        <option></option>
+                    </select>
                 </div>
                 <div class="input_block">
-                    <input list="car_engine" class="car_input" name="car_engine">
-                    <datalist id="car_engine">
-                        <option value="">
-                        <option value="">
-                    </datalist>
+                    <select list="car_engine" class="car_input" name="car_engine" title="Тип двигателя">
+                        <option disabled selected>Тип двигателя</option>
+                        <option></option>
+                    </select>
                 </div>
                 <div class="input_block">
                     <label for="car_q">Объем двиг.</label>
-                    <input class="car_text_input" type="number" id="car_q">
+                    <input class="car_text_input" type="number" min="0" id="car_q" step="0.1">
                     <label>л.</label>
                 </div>
                 <div class="input_btype">
-                    <input list="car_btype" class="car_input" name="car_btype">
-                    <datalist id="car_btype">
-                        <option value="">
-                        <option value="">
-                    </datalist>
+                    <select list="car_btype" class="car_input" name="car_btype">
+                        <option disabled selected>Тип кузова</option>
+                        <option></option>
+                        <option></option>
+                    </select>
                 </div>
                 <div class="input_block">
 
                 </div>
                 <div class="input_trans">
-                    <input list="car_trans" class="car_input" name="car_trans" value="КПП">
-                    <datalist id="car_trans">
-                        <option value="auto">
-                        <option value="manual">
-                    </datalist>
+                    <select list="car_trans" class="car_input" name="car_trans" TITLE="КПП">
+                        <option disabled selected>КПП</option>
+                        <option>auto</option>
+                        <option>manual</option>
+                    </select>
                 </div>
                 <div class="input_block">
                     <label for="car_price">Цена</label>
-                    <input class="car_text_input" type="number" id="car_price">
+                    <input class="car_text_input" type="number" min="0" id="car_price">
                     <label>руб.</label>
                 </div>
                 <div class="input_block">
@@ -203,8 +202,39 @@
                     <label>Оповещать о комментариях</label>
                 </div>
             </form>
-        </div>
 
+            <div class="det_gallery">
+                <h3>Загрузите фотографии (максимум 8 шт.)</h3>
+                <div class="det_g_block">
+                    <img src="" class="get_g img">
+                </div>
+                <div class="det_g_block">
+                    <img src="" class="get_g img">
+                </div>
+                <div class="det_g_block">
+                    <img src="" class="get_g img">
+                </div>
+                <div class="det_g_block">
+                    <img src="" class="get_g img">
+                </div>
+                <div class="det_g_block">
+                    <img src="" class="get_g img">
+                </div>
+                <div class="det_g_block">
+                    <img src="" class="get_g img">
+                </div>
+                <div class="det_g_block">
+                    <img src="" class="get_g img">
+                </div>
+            </div>
+            <div class="det_action">
+                <form class="det_action_form" name="det_action_form">
+                    <input type="button" class="det_img_download" name="img_download" value="Загрузить фото">
+                    <label id="det_action_label">Все данные отмеченные восклицательным знаком обязательны к заполнению</label>
+                    <input type="submit" class="det_action_add" name="adv_add" value="Добавить объявление">
+                </form>
+            </div>
+        </div>
         <!-- =======SPECIAL OFFER=========-->
         <a href="#" class="scroll_img1"><img src="img/sp_offer_scroll1.png"></a>
         <a href="#" class="scroll_img2"><img src="img/sp_offer_scroll2.png"></a>
