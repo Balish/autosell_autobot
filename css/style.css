@@ -554,6 +554,7 @@ span.left {
     color: #368ccc;
 }
 /** ====ADVERT box ======**/
+
 .advert_box{
     margin: 0 auto;
     position: relative;
@@ -622,6 +623,7 @@ span.left {
     width: 100%;
     margin-top: -53px;
     display: block;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.2);
 }
 .adv_tag{
     background: url('../img/adv_header_tag.png') no-repeat;
@@ -1056,6 +1058,103 @@ span.left {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+/**sell details **/
+.det_main{
+    margin: 20px auto;
+    position: relative;
+    background-color: #313233;
+    color: white;
+    padding-bottom: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#sell_tagprice{
+    display: block;
+    position: relative;
+    background: url("../img/det_tag.png") no-repeat;
+    height: 46px;
+    width: 100%;
+    top: -7px;
+    left: 20px;
+}
+#sell_price{
+    margin: 0px auto;
+    padding-top: 15px;
+    font-size: 1.5em;
+    width: 230px;
+    float: left;
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.2);
+}
+.sell_det_form{
+    display: block;
+    position: relative;
+    margin: 10px 30px auto;
+}
+.sell_det_form:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.input_block{
+    display: block;
+    position: relative;
+    float: left;
+    padding-right: 40px;
+    margin-top: 10px;
+    width: 22.22%;
+    height: 44px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form_att{
+    display: block;
+    position: relative;
+    float: right;
+    top: -23px;
+}
+.input_w_block{
+    display: block;
+    position: relative;
+    float: left;
+    padding-right: 30px;
+    margin-top: 10px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.sell_det_input{
+    width: 100%;
+}
+input[type="email"] {
+    padding: 5px;
+    border: none;
+    background-color: #323232;
+    -moz-box-shadow: 0 0 3px #121212;
+    -webkit-box-shadow: 0 0 3px #121212;
+    box-shadow: 0 0 3px #121212;
+    color: #bcbcbc;
+}
+.sell_det_textarea{
+    display: block;
+    padding: 5px;
+    border: 1px solid #323232;
+    border-radius: 4px;
+    background-color: #323232;
+    webkit-box-shadow: rgba(191, 191, 191, 0.40) 0 1px 0, inset rgba(000,000,000,0.7) 0 1px 1px;
+    -moz-box-shadow: rgba(191, 191, 191, 0.40) 0 1px 0, inset rgba(000,000,000,0.7) 0 1px 1px;
+    box-shadow: rgba(191, 191, 191, 0.40) 0 1px 0, inset rgba(000,000,000,0.7) 0 1px 1px;
+    color: #bcbcbc;
+    width: 100%;
+    min-height: 200px;
+    resize: vertical;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 /** BALISH STYLE END HERE **/
 

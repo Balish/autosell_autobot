@@ -63,46 +63,47 @@
             <ul><a href="#">Запчасти</a> / <a href="#">Добавить объявление </a></ul>
         </div>
         <!-- SELL DETAILS-->
-        <div class="adv_main">
+        <div class="det_main">
             <div id="sell_tagprice">
                 <h3 id="sell_price">Продать Запчасть</h3>
-                <div id="sell_tag">
-                </div>
-                <div id="sell_corner">
-                </div>
             </div>
 
             <form class="sell_det_form" name="sell_det_form">
                 <div class="input_block">
-                    <input class="sell_det_input" name="sell_name" type="text">
+                    <input class="sell_det_input" name="sell_name" type="text" value="Ваше Имя" title="Имя">
+                    <img class="form_att" src="img/det_form_attention.png" title="Обязательно заполнить">
                 </div>
                 <div class="input_block">
-                    <input class="sell_det_input" name="sell_city" type="text">
+                    <input class="sell_det_input" name="sell_city" type="text" value="Город" title="Город">
+                    <img class="form_att" src="img/det_form_attention.png" title="Обязательно заполнить">
                 </div>
                 <div class="input_block">
-                    <input class="sell_det_input" name="sell_number" type="text">
+                    <input class="sell_det_input" name="sell_number" type="text" value="Телефон" title="Телефон">
+                    <img class="form_att" src="img/det_form_attention.png" title="Обязательно заполнить">
                 </div>
                 <div class="input_block">
-                    <img id="sell_capcha" src="">
+                    <img id="sell_capcha" src="img/det_capcha.png">
+                </div>
+                </br>
+                <div class="input_block">
+                    <input class="sell_det_input" name="sell_sname" type="text" value="Ваше Фамилия" title="Фамилия">
+                    <img class="form_att" src="img/det_form_attention.png" title="Обязательно заполнить">
                 </div>
                 <div class="input_block">
-                    <input class="sell_det_input" name="sell_sname" type="text">
+                    <input class="sell_det_input" name="sell_email" type="email" value="Эл. почта" title="Email">
                 </div>
                 <div class="input_block">
-                    <input class="sell_det_input" name="sell_email" type="email">
+                    <input class="sell_det_input" name="sell_place" type="text" value="Место осмотра" title="Осмотр">
                 </div>
                 <div class="input_block">
-                    <input class="sell_det_input" name="sell_place" type="text">
-                </div>
-                <div class="input_block">
-                    <input class="sell_det_input" name="sell_capcha_code" type="text">
+                    <input class="sell_det_input" name="sell_capcha_code" type="text" value="Код с картинки" title="Код">
+                    <img class="form_att" src="img/det_form_attention.png" title="Обязательно заполнить">
                 </div>
                 <div class="input_w_block">
-                    <input class="sell_det_input" name="sell_det_name" type="text">
+                    <input class="sell_det_input" name="sell_det_name" type="text" value="Название запчасти" title="Название">
                 </div>
-                <div class="input_block">
-                    <textarea class="sell_det_textarea" name="sell_comments">
-
+                <div class="input_w_block">
+                    <textarea class="sell_det_textarea" name="sell_comments" value="Ваш комментарий, описание запчасти" title="Описание" >Ваш комментарий, описание запчасти
                     </textarea>
                 </div>
             </form>
@@ -240,7 +241,6 @@
         <a href="#" class="scroll_img2"><img src="img/sp_offer_scroll2.png"></a>
             <div class="sp_offer_grid">
                 <h3>Спецпредложения</h3>
-
                 <div class="sp_offer_box">
                     <div class="sp_off_temp">
                         <a href="#" class="temp_img"><img src="img/subaru.png"></a>
