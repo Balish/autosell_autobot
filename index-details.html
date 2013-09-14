@@ -110,7 +110,7 @@
         </div>
         <!-- CAR INFO-->
         <div class="car_info">
-            <h3 class="car_info header">Заполните пожалуйста информацию об автомобиле</h3>
+            <h3 class="car_info_header">Заполните пожалуйста информацию об автомобиле</h3>
             <form class="car_info_form" name="car_info_form">
                 <div class="input_block">
                     <select class="car_input" name="car_brand" title="Марка" >
@@ -118,10 +118,12 @@
                         <option>Mersedes</option>
                         <option>BMW</option>
                     </select>
+                    <img class="form_car_att" src="img/car_form_attention.png" title="Обязательно заполнить">
                 </div>
                 <div class="input_block">
-                    <label for="car_years">Год</label>
+                    <span  class="car_form_label">Год</span>
                     <input class="car_text_input" type="number" min="1900"  id="car_years">
+                    <img class="form_car_att" src="img/car_form_attention.png" title="Обязательно заполнить">
                 </div>
                 <div class="input_block">
                     <select class="car_input" name="car_drive" title="Привод" >
@@ -137,16 +139,18 @@
                         <option>new</option>
                         <option>used</option>
                     </select>
+                    <img class="form_car_att" src="img/car_form_attention.png" title="Обязательно заполнить">
                 </div>
                 <div class="input_block">
                     <select list="car_model" class="car_input" name="car_model" title="Модель">
                         <option selected disabled>Модель</option>
                     </select>
+                    <img class="form_car_att" src="img/car_form_attention.png" title="Обязательно заполнить">
                 </div>
                 <div class="input_block">
-                    <label for="car_milage">Пробег</label>
+                    <span for="car_milage" class="car_form_label">Пробег</span>
                     <input class="car_text_input" type="number"  min="0" id="car_milage">
-                    <label>км.</label>
+                    <span>км.</span>
                 </div>
                 <div class="input_block">
                     <select list="car_side" class="car_input" name="car_side" title="Руль">
@@ -168,11 +172,11 @@
                     </select>
                 </div>
                 <div class="input_block">
-                    <label for="car_q">Объем двиг.</label>
+                    <span for="car_q" class="car_form_label">Объем двиг.</span>
                     <input class="car_text_input" type="number" min="0" id="car_q" step="0.1">
-                    <label>л.</label>
+                    <span>л.</span>
                 </div>
-                <div class="input_btype">
+                <div class="input_block">
                     <select list="car_btype" class="car_input" name="car_btype">
                         <option disabled selected>Тип кузова</option>
                         <option></option>
@@ -182,7 +186,7 @@
                 <div class="input_block">
 
                 </div>
-                <div class="input_trans">
+                <div class="input_block">
                     <select list="car_trans" class="car_input" name="car_trans" TITLE="КПП">
                         <option disabled selected>КПП</option>
                         <option>auto</option>
@@ -190,17 +194,18 @@
                     </select>
                 </div>
                 <div class="input_block">
-                    <label for="car_price">Цена</label>
+                    <span for="car_price" class="car_form_label">Цена</span>
                     <input class="car_text_input" type="number" min="0" id="car_price">
-                    <label>руб.</label>
+                    <span class="car_form_label2">руб.</span>
+                    <img class="form_car_att" src="img/car_form_attention.png" title="Обязательно заполнить">
                 </div>
                 <div class="input_block">
                     <input class="car_radio" type="checkbox" id="car_email_r">
-                    <label>показать эл. почту</label>
+                    <span>показать эл. почту</span>
                 </div>
                 <div class="input_block">
-                    <input class="car_radio" type="checkbox" id="car_notif_r">
-                    <label>Оповещать о комментариях</label>
+                    <input class="ca" type="checkbox" id="car_notif_r">
+                    <span>Оповещать о комментариях</span>
                 </div>
             </form>
 
@@ -231,7 +236,9 @@
             <div class="det_action">
                 <form class="det_action_form" name="det_action_form">
                     <input type="button" class="det_img_download" name="img_download" value="Загрузить фото">
-                    <label id="det_action_label">Все данные отмеченные восклицательным знаком обязательны к заполнению</label>
+                    <span id="det_action_label">
+                        <img class="form_car_att" src="img/car_form_attention.png" title="Обязательно заполнить"> Все данные отмеченные восклицательным знаком обязательны к заполнению
+                    </span>
                     <input type="submit" class="det_action_add" name="adv_add" value="Добавить объявление">
                 </form>
             </div>

@@ -1059,9 +1059,9 @@ span.left {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-/**sell details **/
+/**sell details style **/
 .det_main{
-    margin: 20px auto;
+    margin-top: 20px;
     position: relative;
     background-color: #313233;
     color: white;
@@ -1105,12 +1105,13 @@ span.left {
     float: left;
     padding-right: 40px;
     margin-top: 10px;
-    width: 22.22%;
+    width: 24.22%;
     height: 44px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 .form_att{
     display: block;
     position: relative;
@@ -1155,6 +1156,214 @@ input[type="email"] {
     min-height: 200px;
     resize: vertical;
     font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+/** CAR INFO STYLE **/
+.car_info{
+    position: relative;
+    background-color: #3d90ce;
+    color: white;
+    padding-bottom: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+.car_info_header{
+    margin: 0px auto;
+    padding: 20px 0px;
+    font-size: 1.3em;
+}
+.car_info_form{
+    display: block;
+    margin: 0px auto;
+    position: relative;
+
+}
+.car_info_form span{
+    font-size: 1.1em;
+}
+.car_info_form:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.car_input{
+    border: 1px solid #3C79A8;
+    background: #3d8fce;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3f9edf), to(#3171a3));
+    background: -webkit-linear-gradient(top, #3f9edf, #3270a3);
+    background: -moz-linear-gradient(top, #3f9edf, #3270a3);
+    background: -ms-linear-gradient(top, #3f9edf, #3270a3);
+    background: -o-linear-gradient(top, #3f9edf, #3270a3);
+    background-image: -ms-linear-gradient(top, #3f9edf 0%, #3270a3 100%);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 1px;
+    -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+    -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+     width: 206px;
+     box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(0, 0, 0, 0.40) 0 1px 0;
+     text-shadow: #242424 0 1px 0;
+     color: #e3e3e3;
+     font-family: helvetica, serif;
+     padding: 5px;
+     font-size: 1.3em;
+     text-decoration: none;
+     vertical-align: middle;
+     background:url("../img/car_input.png") no-repeat ;
+     -webkit-appearance: none;
+}
+.form_car_att{
+    display: inline;
+    position: relative;
+    padding-left: 5px;
+}
+.car_form_label{
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+    width: 75px;
+    font-size: 1.2em;
+}
+.car_form_label2{
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+}
+.car_text_input{
+    padding: 5px;
+    border: none;
+    background-color: #3270a3;
+    -moz-box-shadow: 0 0 3px #121212;
+    -webkit-box-shadow: 0 0 3px #121212;
+    box-shadow: 0 0 3px #121212;
+    color: #bcbcbc;
+    width: 100px;
+}
+.car_info_form .input_block{
+    padding-right: 0px;
+}
+.det_gallery{
+    position: relative;
+}
+.det_gallery:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.det_g_block{
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    padding-top: 10px;
+    width: 12.22%;
+    min-height: 100px;
+    background-color: #3f9edf;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.det_action{
+    position: relative;
+    margin: 20px auto;
+    margin-right: 30px;
+}
+#det_action_label{
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    padding: 0px 80px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+/**======BUTTON STYLE==========**/
+.det_img_download{
+    position: relative;
+    border: 0px solid #0a3c59;
+    background: #0d5b8f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#61bdfa), to(#0d5b8f));
+    background: -webkit-linear-gradient(top, #61bdfa, #0d5b8f);
+    background: -moz-linear-gradient(top, #61bdfa, #0d5b8f);
+    background: -ms-linear-gradient(top, #61bdfa, #0d5b8f);
+    background: -o-linear-gradient(top, #61bdfa, #0d5b8f);
+    background-image: -ms-linear-gradient(top, #61bdfa 0%, #0d5b8f 100%);
+    padding: 11px 22px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 2px;
+    -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+    -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+    box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+    text-shadow: #2f5a75 0 1px 0;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: helvetica, serif;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.det_img_download:hover {
+    border: 0px solid #0a3c59;
+    text-shadow: #1e4158 0 1px 0;
+    background: #003a61;
+    background: -webkit-gradient(linear, left top, left bottom, from(#29a0f5), to(#003a61));
+    background: -webkit-linear-gradient(top, #29a0f5, #003a61);
+    background: -moz-linear-gradient(top, #29a0f5, #003a61);
+    background: -ms-linear-gradient(top, #29a0f5, #003a61);
+    background: -o-linear-gradient(top, #29a0f5, #003a61);
+    background-image: -ms-linear-gradient(top, #29a0f5 0%, #003a61 100%);
+    color: #d4d4d4;
+}
+.det_img_download:active {
+    text-shadow: #1e4158 0 1px 0;
+    border: 0px solid #0a3c59;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#003a61));
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+    color: #fff;
+}
+.det_action_add{
+    position: relative;
+    float: right;
+    border: 2px solid rgba(63, 158, 223, 0.57);
+    background: #0d4a7e;
+    background: -webkit-gradient(linear, left top, left bottom, from(#61bdfa), to(#0d5b8f));
+    background: -webkit-linear-gradient(top, #61bdfa, #0d5b8f);
+    background: -moz-linear-gradient(top, #61bdfa, #0d5b8f);
+    background: -ms-linear-gradient(top, #61bdfa, #0d5b8f);
+    background: -o-linear-gradient(top, #61bdfa, #0d5b8f);
+    background-image: -ms-linear-gradient(top, #61bdfa 0%, #0d5b8f 100%);
+    padding: 11px 22px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+    -moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+    box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+    text-shadow: #283f56 0 1px 0;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: helvetica, serif;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.det_action_add:hover {
+    border: 0px solid #0a3c59;
+    text-shadow: #1e4158 0 1px 0;
+    background: #003a61;
+    background: -webkit-gradient(linear, left top, left bottom, from(#29a0f5), to(#003a61));
+    background: -webkit-linear-gradient(top, #29a0f5, #003a61);
+    background: -moz-linear-gradient(top, #29a0f5, #003a61);
+    background: -ms-linear-gradient(top, #29a0f5, #003a61);
+    background: -o-linear-gradient(top, #29a0f5, #003a61);
+    background-image: -ms-linear-gradient(top, #29a0f5 0%, #003a61 100%);
+    color: #d4d4d4;
 }
 /** BALISH STYLE END HERE **/
 
