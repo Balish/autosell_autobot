@@ -1130,7 +1130,7 @@ span.left {
     box-sizing: border-box;
 }
 
-.sell_det_input{
+.search_text_input {
     width: 100%;
 }
 input[type="email"] {
@@ -1210,7 +1210,7 @@ input[type="email"] {
      font-size: 1.3em;
      text-decoration: none;
      vertical-align: middle;
-     background:url("../img/car_input.png") no-repeat ;
+     background:url("../img/car_input.png") no-repeat 96%;
      -webkit-appearance: none;
 }
 .form_car_att{
@@ -1366,11 +1366,24 @@ input[type="email"] {
     color: #d4d4d4;
 }
 
-/** BALISH STYLE END HERE **/
-
 /** BALISH STYLE START LIST SEARCH HERE **/
 .input_block .det_button{
-    width: 100%;
+    width: 60%;
+    height: 34px;
+}
+.search_select{
+    background: transparent;
+    color: #8a8a8a;
+    width: 210px;
+    height: 30px;
+    padding: 5px;
+    font-size: 1.3em;
+    border: 0;
+    height: 30px;
+    -webkit-appearance: none;
+    background: url('../img/select.png') no-repeat 96%;
+    cursor: pointer;
+
 }
 /** BALISH STYLE END LIST SEARCH HERE **/
 

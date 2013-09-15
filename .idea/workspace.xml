@@ -24,10 +24,10 @@
         <splitter split-orientation="vertical" split-proportion="0.625">
           <split-first>
             <leaf>
-              <file leaf-file-name="index-list.html" pinned="false" current="false" current-in-tab="true">
+              <file leaf-file-name="index-list.html" pinned="false" current="true" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/index-list.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="90" column="41" selection-start="4024" selection-end="4024" vertical-scroll-proportion="0.55510205">
+                    <state line="79" column="45" selection-start="3358" selection-end="3358" vertical-scroll-proportion="0.7979592">
                       <folding />
                     </state>
                   </provider>
@@ -50,12 +50,24 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1199" column="21" selection-start="20816" selection-end="20816" vertical-scroll-proportion="0.2948718">
+                <state line="1384" column="19" selection-start="26864" selection-end="26864" vertical-scroll-proportion="0.45571095">
                   <folding>
-                    <marker date="1379269009392" expanded="true" signature="589:641" placeholder="{...}" />
+                    <marker date="1379274385587" expanded="true" signature="589:641" placeholder="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index-details.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index-details.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="241" column="58" selection-start="12077" selection-end="12077" vertical-scroll-proportion="-25.115385">
+                  <folding>
+                    <element signature="tag#div#2;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                    <element signature="tag#div#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -281,7 +293,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="1353" column="20" selection-start="25945" selection-end="25945" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1379269009392" expanded="true" signature="589:641" placeholder="{...}" />
+            <marker date="1379274385587" expanded="true" signature="589:641" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -301,9 +313,14 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/car_input.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index-details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="241" column="58" selection-start="12044" selection-end="12044" vertical-scroll-proportion="0.760241">
+        <state line="241" column="58" selection-start="12077" selection-end="12077" vertical-scroll-proportion="-25.115385">
           <folding>
             <element signature="tag#div#2;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -311,24 +328,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/car_input.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1384" column="19" selection-start="26864" selection-end="26864" vertical-scroll-proportion="0.45571095">
+          <folding>
+            <marker date="1379274385587" expanded="true" signature="589:641" placeholder="{...}" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="41" selection-start="4024" selection-end="4024" vertical-scroll-proportion="0.55510205">
+        <state line="79" column="45" selection-start="3358" selection-end="3358" vertical-scroll-proportion="0.7979592">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1199" column="21" selection-start="20816" selection-end="20816" vertical-scroll-proportion="0.2948718">
-          <folding>
-            <marker date="1379269009392" expanded="true" signature="589:641" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
