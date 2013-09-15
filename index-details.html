@@ -113,7 +113,7 @@
             <h3 class="car_info_header">Заполните пожалуйста информацию об автомобиле</h3>
             <form class="car_info_form" name="car_info_form">
                 <div class="input_block">
-                    <select class="car_input" name="car_brand" title="Марка" >
+                    <select class="car_select" name="car_brand" title="Марка" >
                         <option selected disabled>Марка</option>
                         <option>Mersedes</option>
                         <option>BMW</option>
@@ -126,7 +126,7 @@
                     <img class="form_car_att" src="img/car_form_attention.png" title="Обязательно заполнить">
                 </div>
                 <div class="input_block">
-                    <select class="car_input" name="car_drive" title="Привод" >
+                    <select class="car_select" name="car_drive" title="Привод" >
                         <option selected disabled>Привод</option>
                         <option>4x4</option>
                         <option>2x Front</option>
@@ -134,7 +134,7 @@
                     </select>
                 </div>
                 <div class="input_block">
-                    <select list="car_status" class="car_input" name="car_status" title="Cостояние">
+                    <select list="car_status" class="car_select" name="car_status" title="Cостояние">
                         <option selected disabled>Состояние</option>
                         <option>new</option>
                         <option>used</option>
@@ -142,7 +142,7 @@
                     <img class="form_car_att" src="img/car_form_attention.png" title="Обязательно заполнить">
                 </div>
                 <div class="input_block">
-                    <select list="car_model" class="car_input" name="car_model" title="Модель">
+                    <select list="car_model" class="car_select" name="car_model" title="Модель">
                         <option selected disabled>Модель</option>
                     </select>
                     <img class="form_car_att" src="img/car_form_attention.png" title="Обязательно заполнить">
@@ -153,20 +153,20 @@
                     <span>км.</span>
                 </div>
                 <div class="input_block">
-                    <select list="car_side" class="car_input" name="car_side" title="Руль">
+                    <select list="car_side" class="car_select" name="car_side" title="Руль">
                         <option selected disabled>Руль</option>
                         <option>right</option>
                         <option>left</option>
                     </select>
                 </div>
                 <div class="input_block">
-                    <select list="car_barter" class="car_input" name="car_barter" title="Обмен">
+                    <select list="car_barter" class="car_select" name="car_barter" title="Обмен">
                         <option disabled selected>Обмен</option>
                         <option></option>
                     </select>
                 </div>
                 <div class="input_block">
-                    <select list="car_engine" class="car_input" name="car_engine" title="Тип двигателя">
+                    <select list="car_engine" class="car_select" name="car_engine" title="Тип двигателя">
                         <option disabled selected>Тип двигателя</option>
                         <option></option>
                     </select>
@@ -177,7 +177,7 @@
                     <span>л.</span>
                 </div>
                 <div class="input_block">
-                    <select list="car_btype" class="car_input" name="car_btype">
+                    <select list="car_btype" class="car_select" name="car_btype">
                         <option disabled selected>Тип кузова</option>
                         <option></option>
                         <option></option>
@@ -187,7 +187,7 @@
 
                 </div>
                 <div class="input_block">
-                    <select list="car_trans" class="car_input" name="car_trans" TITLE="КПП">
+                    <select list="car_trans" class="car_select" name="car_trans" TITLE="КПП">
                         <option disabled selected>КПП</option>
                         <option>auto</option>
                         <option>manual</option>
@@ -235,11 +235,11 @@
             </div>
             <div class="det_action">
                 <form class="det_action_form" name="det_action_form">
-                    <input type="button" class="det_img_download" name="img_download" value="Загрузить фото">
+                    <input type="button" class="det_button" name="img_download" value="Загрузить фото">
                     <span id="det_action_label">
                         <img class="form_car_att" src="img/car_form_attention.png" title="Обязательно заполнить"> Все данные отмеченные восклицательным знаком обязательны к заполнению
                     </span>
-                    <input type="submit" class="det_action_add" name="adv_add" value="Добавить объявление">
+                    <input type="submit" class="det_submit" name="adv_add" value="Добавить объявление">
                 </form>
             </div>
         </div>

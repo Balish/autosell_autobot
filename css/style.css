@@ -1187,7 +1187,7 @@ input[type="email"] {
     display: table;
     clear: both;
 }
-.car_input{
+.car_select {
     border: 1px solid #3C79A8;
     background: #3d8fce;
     background: -webkit-gradient(linear, left top, left bottom, from(#3f9edf), to(#3171a3));
@@ -1278,7 +1278,7 @@ input[type="email"] {
 }
 
 /**======BUTTON STYLE==========**/
-.det_img_download{
+.det_button{
     position: relative;
     border: 0px solid #0a3c59;
     background: #0d5b8f;
@@ -1303,7 +1303,7 @@ input[type="email"] {
     vertical-align: middle;
     cursor: pointer;
 }
-.det_img_download:hover {
+.det_button:hover {
     border: 0px solid #0a3c59;
     text-shadow: #1e4158 0 1px 0;
     background: #003a61;
@@ -1315,7 +1315,7 @@ input[type="email"] {
     background-image: -ms-linear-gradient(top, #29a0f5 0%, #003a61 100%);
     color: #d4d4d4;
 }
-.det_img_download:active {
+.det_button:active {
     text-shadow: #1e4158 0 1px 0;
     border: 0px solid #0a3c59;
     background: #65a9d7;
@@ -1327,7 +1327,7 @@ input[type="email"] {
     background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
     color: #fff;
 }
-.det_action_add{
+.det_submit{
     position: relative;
     float: right;
     border: 2px solid rgba(63, 158, 223, 0.57);
@@ -1353,7 +1353,7 @@ input[type="email"] {
     vertical-align: middle;
     cursor: pointer;
 }
-.det_action_add:hover {
+.det_submit:hover {
     border: 0px solid #0a3c59;
     text-shadow: #1e4158 0 1px 0;
     background: #003a61;
@@ -1365,8 +1365,14 @@ input[type="email"] {
     background-image: -ms-linear-gradient(top, #29a0f5 0%, #003a61 100%);
     color: #d4d4d4;
 }
+
 /** BALISH STYLE END HERE **/
 
+/** BALISH STYLE START LIST SEARCH HERE **/
+.input_block .det_button{
+    width: 100%;
+}
+/** BALISH STYLE END LIST SEARCH HERE **/
 
 /** Special Offers **/
 #special_offers {

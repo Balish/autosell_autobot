@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="language" content="ru" />
+
+	<!-- blueprint CSS -->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="shortcut icon" href="img/favicon.ico" />
+	<title></title>
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <!-- Header -->
+        <div id="header">
+
+            <!-- Logo -->
+            <div id="logo">
+                <a href="#"><img src="img/logo.png" alt="Logo" /></a>
+            </div>
+            
+            <!-- Add Post -->
+            <div id="add_post">
+                <a href="#left"><div id="post_left">
+                    <img src="img/post_left.png" />
+                    <div id="post_text_left"><b>Продать автомобиль</b></div>
+                </div></a><a href="#right">
+                <div id="post_right">
+                    <img src="img/post_right.png" />
+                    <div id="post_text_right"><b>Продать запчасть</b></div>
+                </div></a>
+            </div>
+            
+            <!-- Profile -->
+            <div id="profile">
+                <div id="name">Магомед Магомедов</div>
+                <div id="tools"><a href="#">0 ЛС</a> <a href="#">Блокнот</a> <a href="#">Выйти</a></div>
+                <div id="profile_image"><img src="img/profile_image.png" /></div>
+            </div>
+            <div id="profile">
+                <div id="login"><a href="#">Войти</a></div>
+                <div id="register"><a hfre="#">Зарегистрироваться</a></div>
+                <div id="profile_image"><img src="img/no_image.png" /></div>
+                <div id="login_form"><img src="img/login_bg.png" width="100%" /></div>
+            </div>
+        </div>
+        
+        <!-- Menu -->
+        <div id="menu">
+            <div class="nav">
+                <div class="item first" id="item_selected"><a  href="#">Автомобили</a></div>
+                <div class="item"><a href="#">Запчасти</a></div>
+                <div class="item"><a href="#">Услуги</a></div>
+                <div class="item"><a href="#">Отзывы</a></div>
+                <div class="item"><a href="#">Новости</a></div>
+                <div class="item last"><a href="#">Контакты</a></div>
+            </div>
+        </div>
+        <!--BALISH CODE START HERE -->
+        <div class="cars_browse">
+            <ul><a href="#">Автомобили</a> / <a href="#">Mercedes-Benz </a> / <a href="#">S-class </a> / <a href="#">Результаты поиска </a></ul>
+        </div>
+        <!-- SELL DETAILS-->
+        <div class="det_main">
+            <div id="sell_tagprice">
+                <h3 id="sell_price">Параметры поиска</h3>
+            </div>
+
+            <form class="sell_det_form" name="search_form">
+                <div class="input_block">
+                   <select class="search_select" name="search_brand" title="Марка" >
+                       <option selected disabled>Выбранная марка</option>
+                       <option></option>
+                   </select>
+                </div>
+                <div class="input_block">
+                    <span>Цена от</span>
+                    <input class="sell_det_input" name="search_price_min" type="text" value="" title="От">
+                    <span>до</span>
+                    <input class="sell_det_input" name="search_price_max" type="text" value="" title="До">
+                </div>
+                <div class="input_block">
+                    <span>Год от</span>
+                    <input class="sell_det_input" name="search_years_min" type="text" value="" title="От">
+                    <span>до</span>
+                    <input class="sell_det_input" name="search_years_max" type="text" value="" title="До">
+                </div>
+                <div class="input_block">
+                    <select class="search_select" name="search_date" title="Дата" >
+                        <option selected disabled>Дата объявления</option>
+                        <option></option>
+                    </select>
+                </div>
+                </br>
+                <div class="input_block">
+                    <select class="search_select" name="search_model" title="Модель" >
+                        <option selected disabled>Выбранная модель</option>
+                        <option></option>
+                    </select>
+                </div>
+                <div class="input_block">
+                    <input class="sell_det_input" name="search_city" type="text" value="Город" title="Город">
+                </div>
+                <div class="input_block">
+                    <select class="search_select" name="search_sort" title="Сортировка">
+                        <option selected disabled>Сортировать по</option>
+                        <option></option>
+                    </select>
+                </div>
+                <div class="input_block">
+                    <select class="search_select" name="search_status" title="Состояние">
+                        <option selected disabled>Состояние авто</option>
+                        <option></option>
+                    </select>
+                </div>
+                <div class="input_block">
+                   <input type="button" class="det_button" value="ПОИСК" name="search_button" title="Поиск">
+                </div>
+                <div class="input_block">
+                    <input type="checkbox" class="search_checkbox" name="search_photo_ch" value="Только с фото">
+                </div>
+
+            </form>
+        </div>
+
+        <!-- =======SPECIAL OFFER=========-->
+        <a href="#" class="scroll_img1"><img src="img/sp_offer_scroll1.png"></a>
+        <a href="#" class="scroll_img2"><img src="img/sp_offer_scroll2.png"></a>
+            <div class="sp_offer_grid">
+                <h3>Спецпредложения</h3>
+                <div class="sp_offer_box">
+                    <div class="sp_off_temp">
+                        <a href="#" class="temp_img"><img src="img/subaru.png"></a>
+                        <p>Subaru Forester 2007</p>
+                        <p>560 000$</p>
+                        <p>SPB</p>
+                    </div>
+                </div>
+                <div class="sp_offer_box">
+                    <div class="sp_off_temp">
+                        <a href="#" class="temp_img"><img src="img/subaru.png"></a>
+                        <p>Subaru Forester 2007</p>
+                        <p>560 000$</p>
+                        <p>SPB</p>
+                    </div>
+                </div>
+                <div class="sp_offer_box">
+                    <div class="sp_off_temp">
+                        <a href="#" class="temp_img"><img src="img/subaru.png"></a>
+                        <p>Subaru Forester 2007</p>
+                        <p>560 000$</p>
+                        <p>SPB</p>
+                    </div>
+                </div>
+                <div class="sp_offer_box">
+                    <div class="sp_off_temp">
+                        <a href="#" class="temp_img"><img src="img/subaru.png"></a>
+                        <p>Subaru Forester 2007</p>
+                        <p>560 000$</p>
+                        <p>SPB</p>
+                    </div>
+                </div>
+                <div class="sp_offer_box">
+                    <div class="sp_off_temp">
+                        <a href="#" class="temp_img"><img src="img/subaru.png"></a>
+                        <p>Subaru Forester 2007</p>
+                        <p>560 000$</p>
+                        <p>SPB</p>
+                    </div>
+                </div>
+                <div class="sp_offer_box">
+                    <div class="sp_off_temp">
+                        <a href="#" class="temp_img"><img src="img/subaru.png"></a>
+                        <p>Subaru Forester 2007</p>
+                        <p>560 000$</p>
+                        <p>SPB</p>
+                    </div>
+                </div>
+                <div class="sp_offer_box">
+                    <div class="sp_off_temp">
+                        <a href="#" class="temp_img"><img src="img/subaru.png"></a>
+                        <p>Subaru Forester 2007</p>
+                        <p>560 000$</p>
+                        <p>SPB</p>
+                    </div>
+                </div>
+                <div class="sp_offer_box">
+                    <div class="sp_off_temp">
+                        <a href="#" class="temp_img"><img src="img/subaru.png"></a>
+                        <p>Subaru Forester 2007</p>
+                        <p>560 000$</p>
+                        <p>SPB</p>
+                    </div>
+                </div>
+                <div class="sp_offer_box">
+                    <div class="sp_off_temp">
+                        <a href="#" class="temp_img"><img src="img/subaru.png"></a>
+                        <p>Subaru Forester 2007</p>
+                        <p>560 000$</p>
+                        <p>SPB</p>
+                    </div>
+                </div>
+                <div class="sp_offer_box">
+                    <div class="sp_off_temp">
+                        <a href="#" class="temp_img"><img src="img/subaru.png"></a>
+                        <p>Subaru Forester 2007</p>
+                        <p>560 000$</p>
+                        <p>SPB</p>
+                    </div>
+                </div>
+
+            </div>
+        <!-- =======NEWS DEEP=========-->
+            <div class="f_news_deep">
+                <div class="f_news">
+                    <div>
+                       <h3 class="f_deep_header">Новости сайта</h3>
+                    </div>
+                    <div class="f_news_box">
+                        <h4>График работы</h4>
+                        <p>1,2,3,4,5,6 января-выходные дни,
+                        1,2,3,4,5,6 января-выходные дни.</p>
+                        <i>30.12.2012</i>
+
+                    <div class="f_news_box">
+                        <h4>Shimano 2013 года</h4>
+                        <p>На Склад поступили катушки и спининги</p>
+                        <i>30.12.2012</i>
+                    </div>
+                    <a href="#" id="f_deep_all">Все новости</a>
+                    </div>
+                </div>
+                <div class="f_posts">
+                    <div class="f_p_h">
+                        <h3 class="f_deep_header">Статьи</h3>
+                    </div>
+                    <div class="f_post_box">
+                        <a href="#" class="f_post_box_h">BMW 4 sedan Franckfurt</a>
+                        <img class="f_post_img" src="img/deep_img1.png">
+                        <p>"ПОД НОЖ" попала дерестайлинговая модификация с турбодизелем</p>
+                    </div>
+
+                    <div class="f_post_box">
+                        <a href="#" class="f_post_box_h">BMW 4 sedan Franckfurt</a>
+                        <img class="f_post_img" src="img/deep_img2.png">
+                        <p>"ПОД НОЖ" попала дерестайлинговая модификация с турбодизелем</p>
+                    </div>
+
+                    <div class="f_post_box">
+                        <a href="#" class="f_post_box_h">BMW 4 sedan Franckfurt</a>
+                        <img class="f_post_img" src="img/deep_img2.png">
+                        <p>"ПОД НОЖ" попала дерестайлинговая модификация с турбодизелем</p>
+                    </div>
+                        <a href="#" id="f_deep_all">Все статьи</a>
+                </div>
+                <div class="f_adv_block">
+                    <img class="f_adv_img" src="img/adv_main_img.png">
+                </div>
+            </div>
+        <!-- =======COMM BLOCK========-->
+            <div class="comm_block">
+                <h3>Реклама</h3>
+                <div class="comm_img">
+                    <img src="img/adv_footer.png">
+                </div>
+                <div class="comm_img">
+                    <img src="img/adv_footer.png">
+                </div>
+                <div class="comm_img">
+                    <img src="img/adv_footer.png">
+                </div>
+                <div class="comm_img">
+                    <img src="img/adv_footer.png">
+                </div>
+                <div class="comm_img">
+                    <img src="img/adv_footer.png">
+                </div>
+                <div class="comm_img">
+                    <img src="img/adv_footer.png">
+                </div>
+                <div class="comm_img">
+                    <img src="img/adv_footer.png">
+                </div>
+                <div class="comm_img">
+                    <img src="img/adv_footer.png">
+                </div>
+            </div>
+        <!--BALISH CODE END HERE -->
+
+        <div class="autobot">
+            <div class="left"><p>Автобот.ру — крупнейший и самый посещаемый автомобильный сайт в Дагестане. У нас самая обширная база объявлений о продаже разных видов транспортных средств.</p></div>
+            <div class="center"><p>Автобот.ру — крупнейший и самый посещаемый автомобильный сайт в Дагестане. У нас самая обширная база объявлений о продаже разных видов транспортных средств.</p></div>
+            <div class="right"><p>Мы предлагаем большой выбор легковых автомобилей, грузового и коммерческого транспорта, автозапчастей. Также мы предлагаем услуги по поиску запчастей.</p></div>
+        </div>
+        <div class="footer">
+            <div class="top">
+                <div id="logo">
+                    <img src="img/logo.png" alt="Logo" />
+                </div>
+                <div class="social"><p>Социальные сервисы:</p><img src="img/twitter.png"/><img src="img/odnoklassniki.png"/><img src="img/vkontakte.png"/><img src="img/facebook.png"/></div>
+            </div>
+            <div class="middle">
+                <div class="media">
+                    <strong>Сервисы:</strong>
+                    <ul>
+                        <li>–Продажа ТС</li>
+                        <li>–Продажа ТС</li>
+                        <li>–Продажа ТС</li>
+                        <li>–Продажа ТС</li>
+                    </ul>
+                </div>
+                <div class="media">
+                    <strong>Сервисы:</strong>
+                    <ul>
+                        <li>–Продажа ТС</li>
+                        <li>–Продажа ТС</li>
+                        <li>–Продажа ТС</li>
+                        <li>–Продажа ТС</li>
+                    </ul>
+                </div>
+                <div class="media">
+                    <strong>Сервисы:</strong>
+                    <ul>
+                        <li>–Продажа ТС</li>
+                        <li>–Продажа ТС</li>
+                        <li>–Продажа ТС</li>
+                        <li>–Продажа ТС</li>
+                    </ul>
+                </div>
+                <div class="media">
+                    <strong>Сервисы:</strong>
+                    <ul>
+                        <li>–Продажа ТС</li>
+                        <li>–Продажа ТС</li>
+                        <li>–Продажа ТС</li>
+                        <li>–Продажа ТС</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="left">
+                    <p>© Сервис принадлежит ООО «АВТОБОТ», 1997–2013 AUTOBOT ® – зарегистрированный товарный знак</p>
+                </div>
+                <div class="right">
+                    <input type="text" placeholder="Поиск"/><img src="img/search.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <script>
+        $(function(){
+        $('#login').click(function() {
+            $('#login_form').slideDown('slow', function() {
+                // Animation complete.
+            });
+        });
+        $('#login').click(function(e) {
+            e.stopPropagation(); // This is the preferred method.
+            return false;        // This should not be used unless you do not want
+                                // any click events registering inside the div
+        });
+        $('#login_form').click(function(e) {
+            e.stopPropagation(); // This is the preferred method.
+            return false;        // This should not be used unless you do not want
+                                // any click events registering inside the div
+        });
+        $(document).click(function(){  
+        $('#login_form').hide(); //hide the button
+
+        });
+        });
+    </script>
+</body>
+</html>
