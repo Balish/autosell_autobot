@@ -429,6 +429,9 @@ input[type="text"] {
     box-shadow: 0 0 3px #121212;
     color: #bcbcbc;
 }
+input[type="text"]:hover{
+    background-color: #4c4c4c;
+}
 
 .city {
     position: absolute;
@@ -1142,6 +1145,10 @@ input[type="email"] {
     box-shadow: 0 0 3px #121212;
     color: #bcbcbc;
 }
+input[type="email"]:hover{
+    background-color: #4c4c4c;
+}
+
 .sell_det_textarea{
     display: block;
     padding: 5px;
@@ -1156,6 +1163,9 @@ input[type="email"] {
     min-height: 200px;
     resize: vertical;
     font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.sell_det_textarea:hover{
+    background-color: #4c4c4c;
 }
 /** CAR INFO STYLE **/
 .car_info{
@@ -1212,6 +1222,13 @@ input[type="email"] {
      vertical-align: middle;
      background:url("../img/car_input.png") no-repeat 96%;
      -webkit-appearance: none;
+     cursor: pointer;
+}
+.car_select:hover{
+    opacity:0.5;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    border: 1px #8a8b8c solid;
 }
 .form_car_att{
     display: inline;
@@ -1239,6 +1256,9 @@ input[type="email"] {
     box-shadow: 0 0 3px #121212;
     color: #bcbcbc;
     width: 100px;
+}
+.car_text_input:hover{
+    background-color: #3f9edf;
 }
 .car_info_form .input_block{
     padding-right: 0px;
@@ -1384,6 +1404,36 @@ input[type="email"] {
     background: url('../img/select.png') no-repeat 96%;
     cursor: pointer;
 
+}
+.search_select:hover{
+    opacity:0.5;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    border: 2px #4d4e4f solid;
+
+}
+.search_text_input_50{
+    font-size: 1.1em;
+    width: 50px;
+}
+.input_100{
+    width:80% ;
+}
+.input_100:hover{
+    background-color: #4c4c4c;
+    
+}
+.input_block span{
+    font-size: 1.3em;
+    padding: 5px 2px;
+}
+.search_checkbox{
+    cursor: pointer;
+}
+.search_checkbox:hover{
+    opacity:0.5;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
 }
 /** BALISH STYLE END LIST SEARCH HERE **/
 
