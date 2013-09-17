@@ -19,7 +19,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.65068084">
+    <splitter split-orientation="horizontal" split-proportion="0.6506809">
       <split-first>
         <splitter split-orientation="vertical" split-proportion="0.625">
           <split-first>
@@ -27,7 +27,7 @@
               <file leaf-file-name="index-list.html" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/index-list.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="121" column="50" selection-start="5620" selection-end="5627" vertical-scroll-proportion="0.44489795">
+                    <state line="67" column="36" selection-start="2834" selection-end="2834" vertical-scroll-proportion="-3.3643892">
                       <folding />
                     </state>
                   </provider>
@@ -53,9 +53,9 @@
           <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1423" column="4" selection-start="27519" selection-end="27519" vertical-scroll-proportion="0.5710956">
+                <state line="1621" column="0" selection-start="33454" selection-end="33454" vertical-scroll-proportion="2.781324">
                   <folding>
-                    <marker date="1379333897617" expanded="true" signature="589:641" placeholder="{...}" />
+                    <marker date="1379451132465" expanded="true" signature="589:641" placeholder="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -64,7 +64,7 @@
           <file leaf-file-name="index-details.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index-details.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="241" column="58" selection-start="12077" selection-end="12077" vertical-scroll-proportion="-0.65384614">
+                <state line="241" column="58" selection-start="12077" selection-end="12077" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -92,10 +92,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-5" />
-    <option name="y" value="35" />
-    <option name="width" value="1930" />
-    <option name="height" value="1050" />
+    <option name="x" value="1" />
+    <option name="y" value="41" />
+    <option name="width" value="1918" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -152,6 +152,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autosell_autobot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autosell_autobot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -164,8 +178,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="preferences.keymap" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -197,13 +211,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="35" width="1930" height="1050" extended-state="1" />
-    <editor active="true" />
+    <frame x="1" y="41" width="1918" height="1038" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10859252" sideWeight="0.26674107" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10859252" sideWeight="0.7254464" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1066313" sideWeight="0.2850679" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1066313" sideWeight="0.70701355" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -271,6 +285,22 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1423" column="4" selection-start="27519" selection-end="27519" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1379451132465" expanded="true" signature="589:641" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="241" column="58" selection-start="12077" selection-end="12077" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index-list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="45" selection-start="3358" selection-end="3358" vertical-scroll-proportion="0.0">
@@ -287,7 +317,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="1384" column="19" selection-start="26864" selection-end="26864" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1379333897617" expanded="true" signature="589:641" placeholder="{...}" />
+            <marker date="1379451132465" expanded="true" signature="589:641" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -315,7 +345,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="1353" column="20" selection-start="25945" selection-end="25945" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1379333897617" expanded="true" signature="589:641" placeholder="{...}" />
+            <marker date="1379451132465" expanded="true" signature="589:641" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -330,11 +360,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/объявление авто список.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/car_input.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -342,23 +367,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index-details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="241" column="58" selection-start="12077" selection-end="12077" vertical-scroll-proportion="-0.65384614">
+        <state line="241" column="58" selection-start="12077" selection-end="12077" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/объявление авто список.psd">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="50" selection-start="5620" selection-end="5627" vertical-scroll-proportion="0.44489795">
+        <state line="67" column="36" selection-start="2834" selection-end="2834" vertical-scroll-proportion="-3.3643892">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1423" column="4" selection-start="27519" selection-end="27519" vertical-scroll-proportion="0.5710956">
+        <state line="1621" column="0" selection-start="33454" selection-end="33454" vertical-scroll-proportion="2.781324">
           <folding>
-            <marker date="1379333897617" expanded="true" signature="589:641" placeholder="{...}" />
+            <marker date="1379451132465" expanded="true" signature="589:641" placeholder="{...}" />
           </folding>
         </state>
       </provider>
