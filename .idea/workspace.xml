@@ -27,7 +27,7 @@
               <file leaf-file-name="index-list.html" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/index-list.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="67" column="36" selection-start="2834" selection-end="2834" vertical-scroll-proportion="-3.3643892">
+                    <state line="254" column="45" selection-start="10933" selection-end="10951" vertical-scroll-proportion="0.54244304">
                       <folding />
                     </state>
                   </provider>
@@ -53,19 +53,10 @@
           <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1621" column="0" selection-start="33454" selection-end="33454" vertical-scroll-proportion="2.781324">
+                <state line="1651" column="22" selection-start="33942" selection-end="33942" vertical-scroll-proportion="0.8238771">
                   <folding>
-                    <marker date="1379451132465" expanded="true" signature="589:641" placeholder="{...}" />
+                    <marker date="1379620438059" expanded="true" signature="589:641" placeholder="{...}" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index-details.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index-details.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="241" column="58" selection-start="12077" selection-end="12077" vertical-scroll-proportion="0.0">
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -123,7 +114,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -172,14 +162,15 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="preferences.keymap" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -216,8 +207,8 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1066313" sideWeight="0.2850679" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1066313" sideWeight="0.70701355" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1066313" sideWeight="0.29072398" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1066313" sideWeight="0.7013575" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -289,7 +280,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="1423" column="4" selection-start="27519" selection-end="27519" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1379451132465" expanded="true" signature="589:641" placeholder="{...}" />
+            <marker date="1379620438059" expanded="true" signature="589:641" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -317,7 +308,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="1384" column="19" selection-start="26864" selection-end="26864" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1379451132465" expanded="true" signature="589:641" placeholder="{...}" />
+            <marker date="1379620438059" expanded="true" signature="589:641" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -345,7 +336,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="1353" column="20" selection-start="25945" selection-end="25945" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1379451132465" expanded="true" signature="589:641" placeholder="{...}" />
+            <marker date="1379620438059" expanded="true" signature="589:641" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -367,7 +358,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index-details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="241" column="58" selection-start="12077" selection-end="12077" vertical-scroll-proportion="0.0">
+        <state line="241" column="58" selection-start="12077" selection-end="12077" vertical-scroll-proportion="0.020731708">
           <folding />
         </state>
       </provider>
@@ -379,16 +370,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="36" selection-start="2834" selection-end="2834" vertical-scroll-proportion="-3.3643892">
+        <state line="254" column="45" selection-start="10933" selection-end="10951" vertical-scroll-proportion="0.54244304">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1621" column="0" selection-start="33454" selection-end="33454" vertical-scroll-proportion="2.781324">
+        <state line="1651" column="22" selection-start="33942" selection-end="33942" vertical-scroll-proportion="0.8238771">
           <folding>
-            <marker date="1379451132465" expanded="true" signature="589:641" placeholder="{...}" />
+            <marker date="1379620438059" expanded="true" signature="589:641" placeholder="{...}" />
           </folding>
         </state>
       </provider>
