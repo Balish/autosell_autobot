@@ -21,22 +21,13 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.65068096">
       <split-first>
-        <splitter split-orientation="vertical" split-proportion="0.5">
+        <splitter split-orientation="vertical" split-proportion="0.85633487">
           <split-first>
             <leaf>
-              <file leaf-file-name="index-search.html" pinned="false" current="true" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/index-search.html">
+              <file leaf-file-name="index-find-details.html" pinned="false" current="true" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/index-find-details.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="134" column="18" selection-start="6229" selection-end="6229" vertical-scroll-proportion="0.6219839">
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="index-list.html" pinned="false" current="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/index-list.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state line="102" column="41" selection-start="4624" selection-end="4624" vertical-scroll-proportion="-2.8461537">
+                    <state line="180" column="0" selection-start="9002" selection-end="9002" vertical-scroll-proportion="0.6530612">
                       <folding />
                     </state>
                   </provider>
@@ -46,8 +37,8 @@
           </split-first>
           <split-second>
             <leaf>
-              <file leaf-file-name="поиск по сайту.psd" pinned="false" current="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/поиск по сайту.psd">
+              <file leaf-file-name="поиск запчасти.psd" pinned="false" current="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/поиск запчасти.psd">
                   <provider selected="true" editor-type-id="images">
                     <state />
                   </provider>
@@ -62,7 +53,7 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1543" column="21" selection-start="31718" selection-end="31718" vertical-scroll-proportion="0.6041413">
+                <state line="1553" column="0" selection-start="31841" selection-end="31841" vertical-scroll-proportion="0.62637365">
                   <folding>
                     <marker date="1379870148105" expanded="true" signature="589:641" placeholder="{...}" />
                   </folding>
@@ -85,10 +76,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index-details.html" />
         <option value="$PROJECT_DIR$/index-list.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index-search.html" />
+        <option value="$PROJECT_DIR$/index-details.html" />
+        <option value="$PROJECT_DIR$/index-find-details.html" />
       </list>
     </option>
   </component>
@@ -163,7 +155,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -188,6 +180,24 @@
     <option name="ACTIVE_ACTIONS" value="ALPHA_COMPARATOR" />
     <option name="SHOW_TOOLBAR" value="true" />
   </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="fab80176-ef0b-4ba1-a849-319a2b5c58ef" name="Default" comment="" />
@@ -198,7 +208,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="41" width="1920" height="1038" extended-state="1" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -271,15 +281,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1384" column="19" selection-start="26864" selection-end="26864" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1379870148105" expanded="true" signature="589:641" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index-details.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="241" column="58" selection-start="12077" selection-end="12077" vertical-scroll-proportion="0.0">
@@ -318,29 +319,14 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/поиск по сайту.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index-details.html">
+    <entry file="file://$PROJECT_DIR$/index-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="22" selection-start="4858" selection-end="5038" vertical-scroll-proportion="2.0">
+        <state line="102" column="41" selection-start="4624" selection-end="4624" vertical-scroll-proportion="0.19839142">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/поиск запчасти.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/продать запчасть.psd">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/объявление авто.psd">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -350,25 +336,47 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index-list.html">
+    <entry file="file://$PROJECT_DIR$/объявление авто.psd">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/поиск по сайту.psd">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="41" selection-start="4624" selection-end="4624" vertical-scroll-proportion="-2.8461537">
+        <state line="134" column="18" selection-start="6229" selection-end="6229" vertical-scroll-proportion="3.471572">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/поиск запчасти.psd">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1543" column="21" selection-start="31718" selection-end="31718" vertical-scroll-proportion="0.6041413">
+        <state line="1553" column="0" selection-start="31841" selection-end="31841" vertical-scroll-proportion="0.62637365">
           <folding>
             <marker date="1379870148105" expanded="true" signature="589:641" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index-search.html">
+    <entry file="file://$PROJECT_DIR$/index-details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="18" selection-start="6229" selection-end="6229" vertical-scroll-proportion="0.6219839">
+        <state line="142" column="22" selection-start="6729" selection-end="7180" vertical-scroll-proportion="0.5860058">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index-find-details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="180" column="0" selection-start="9002" selection-end="9002" vertical-scroll-proportion="0.6530612">
           <folding />
         </state>
       </provider>
