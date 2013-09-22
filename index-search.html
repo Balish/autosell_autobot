@@ -60,206 +60,116 @@
         </div>
         <!--BALISH CODE START HERE -->
         <div class="cars_browse">
-            <ul><a href="#">Автомобили</a> / <a href="#">Mercedes-Benz </a> / <a href="#">S-class </a> / <a href="#">Результаты поиска </a></ul>
+            <ul><a href="#">Результаты поиска по сайту</a></ul>
         </div>
-        <!-- SELL DETAILS-->
+        <!-- SEARCH FORM-->
         <div class="det_main">
             <div id="sell_tagprice">
                 <h3 id="sell_price">Параметры поиска</h3>
             </div>
 
             <form class="sell_det_form" name="search_form">
-                <div class="input_block">
-                   <select class="search_select" name="search_brand" title="Марка" >
-                       <option selected disabled>Выбранная марка</option>
-                       <option></option>
-                   </select>
-                </div>
-                <div class="input_block">
-                    <span>Цена от</span>
-                    <input class="search_text_input_50" name="search_price_min" type="text" value="" title="От">
-                    <span>до</span>
-                    <input class="search_text_input_50" name="search_price_max" type="text" value="" title="До">
-                </div>
-                <div class="input_block">
-                    <span>Год от</span>
-                    <input class="search_text_input_50" name="search_years_min" type="text" value="" title="От">
-                    <span>до</span>
-                    <input class="search_text_input_50" name="search_years_max" type="text" value="" title="До">
-                </div>
-                <div class="input_block">
-                    <select class="search_select" name="search_date" title="Дата" >
-                        <option selected disabled>Дата объявления</option>
-                        <option></option>
-                    </select>
-                </div>
-                </br>
-                <div class="input_block">
-                    <select class="search_select" name="search_model" title="Модель" >
-                        <option selected disabled>Выбранная модель</option>
-                        <option></option>
-                    </select>
-                </div>
-                <div class="input_block">
-                    <input class="input_100" name="search_city" type="text" value="Город" title="Город">
-                </div>
-                <div class="input_block">
-                    <select class="search_select" name="search_sort" title="Сортировка">
-                        <option selected disabled>Сортировать по</option>
-                        <option></option>
-                    </select>
-                </div>
-                <div class="input_block">
-                    <select class="search_select" name="search_status" title="Состояние">
-                        <option selected disabled>Состояние авто</option>
-                        <option></option>
-                    </select>
+                <div class="input_w_block">
+                    <input class="search_text_input" name="search_tag_name" type="text" value="Ключевые слова для поиска" title="Поиск">
                 </div>
                 <div class="input_block">
                    <input type="button" class="det_button" value="ПОИСК" name="search_button" title="Поиск">
                 </div>
-                <div class="input_block">
-                    <input type="checkbox" class="search_checkbox" name="search_photo_ch" value="Только с фото">
-                    <span>Только с фото</span>
-                </div>
-                <div class="input_block">
-
-                </div>
-                <div class="input_block">
-                    <input type="button" class="search_set_button" name="search_settings" value="Дополнительные настройки">
-                </div>
             </form>
         </div>
-        <!-- --------result table -------------- -->
+        <!-- --------result LIST -------------- -->
         <div class="search_result">
-            <table class="search_result_table">
-                <tr>
-                    <th>Фото</th>
-                    <th>Модель</th>
-                    <th>Цена</th>
-                    <th>Год вып.</th>
-                    <th>Объем/Кпп</th>
-                    <th>Тип двиг</th>
-                    <th>Пробег</th>
-                    <th>Город</th>
-                    <th>Кузов</th>
-                    <th>Цвет</th>
-                </tr>
-                <!--- -->
-                <tr>
-                    <td><img src="img/deep_img2.png"></td>
-                    <td>S class(W116)</td>
-                    <td>20 000</td>
-                    <td> 1979</td>
-                    <td>2.8/A</td>
-                    <td>Kapb</td>
-                    <td>560 00</td>
-                    <td>Moscow</td>
-                    <td><img src="img/car.png"></td>
-                    <td><div class="color_box"></div></td>
-                </tr>
-                <!--- -->
-                <tr class="table-even">
-                    <td><img src="img/deep_img2.png"></td>
-                    <td>S class(W116)</td>
-                    <td>20 000</td>
-                    <td> 1979</td>
-                    <td>2.8/A</td>
-                    <td>Kapb</td>
-                    <td>560 00</td>
-                    <td>Moscow</td>
-                    <td><img src="img/car.png"></td>
-                    <td><div class="color_box"></div></td>
-                </tr>
-                <!--- -->
-                <tr>
-                    <td><img src="img/deep_img2.png"></td>
-                    <td>S class(W116)</td>
-                    <td>20 000</td>
-                    <td> 1979</td>
-                    <td>2.8/A</td>
-                    <td>Kapb</td>
-                    <td>560 00</td>
-                    <td>Moscow</td>
-                    <td><img src="img/car.png"></td>
-                    <td><div class="color_box"></div></td>
-                </tr>
-                <!--- -->
-                <tr class="table-even">
-                    <td><img src="img/deep_img2.png"></td>
-                    <td>S class(W116)</td>
-                    <td>20 000</td>
-                    <td> 1979</td>
-                    <td>2.8/A</td>
-                    <td>Kapb</td>
-                    <td>560 00</td>
-                    <td>Moscow</td>
-                    <td><img src="img/car.png"></td>
-                    <td><div class="color_box"></div></td>
-                </tr>
-                <!--- -->
-                <tr>
-                    <td><img src="img/deep_img2.png"></td>
-                    <td>S class(W116)</td>
-                    <td>20 000</td>
-                    <td> 1979</td>
-                    <td>2.8/A</td>
-                    <td>Kapb</td>
-                    <td>560 00</td>
-                    <td>Moscow</td>
-                    <td><img src="img/car.png"></td>
-                    <td><div class="color_box"></div></td>
-                </tr>
-                <!--- -->
-                <tr class="table-even">
-                    <td><img src="img/deep_img2.png"></td>
-                    <td>S class(W116)</td>
-                    <td>20 000</td>
-                    <td> 1979</td>
-                    <td>2.8/A</td>
-                    <td>Kapb</td>
-                    <td>560 00</td>
-                    <td>Moscow</td>
-                    <td><img src="img/car.png"></td>
-                    <td><div class="color_box"></div></td>
-                </tr>
 
-                <tr class="table-footer" >
+            <div class="search_result_block">
+                <div class="result_block_header">
+                    <h3>BMW X3 почему бы и нет?</h3>
 
-                    <td colspan="10">
-                        <div class="table-page_browse">
-                            <div id="pb_title">
-                                <p>Страницы :</p>
-                            </div>
-                            <div id="pb_count">
-                                <ul class="pb_count_ul">
-                                    <li>
-                                        <a href="#"> 1 </a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> ... </a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> 2 </a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> ... </a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> 3 </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div id="pb_total">
-                                <span>Объявлений :</span>
-                                <span class="advert_total_count">465213</span>
-                            </div>
-                        </div>
-                    </td>
+                </div>
+                <div class="result_block_content">
+                    <p>Рестайлинг BMW X3 модификация с объемом до 3 литров========================================</p>
+                    <p>Рестайлинг BMW X3 модификация с объемом до 3 литров</p>
+                </div>
+            </div>
+            <div class="search_result_block">
+                <div class="result_block_header">
+                    <h3>BMW X3 почему бы и нет?</h3>
 
-                </tr>
+                </div>
+                <div class="result_block_content">
+                    <p>Рестайлинг BMW X3 модификация с объемом до 3 литров========================================</p>
+                    <p>Рестайлинг BMW X3 модификация с объемом до 3 литров</p>
+                </div>
+            </div>
+            <div class="search_result_block">
+                <div class="result_block_header">
+                    <h3>BMW X3 почему бы и нет?</h3>
 
-            </table>
+                </div>
+                <div class="result_block_content">
+                    <p>Рестайлинг BMW X3 модификация с объемом до 3 литров========================================</p>
+                    <p>Рестайлинг BMW X3 модификация с объемом до 3 литров</p>
+                </div>
+            </div>
+            <div class="search_result_block">
+                <div class="result_block_header">
+                    <h3>BMW X3 почему бы и нет?</h3>
+
+                </div>
+                <div class="result_block_content">
+                    <p>Рестайлинг BMW X3 модификация с объемом до 3 литров========================================</p>
+                    <p>Рестайлинг BMW X3 модификация с объемом до 3 литров</p>
+                </div>
+            </div>
+            <div class="search_result_block">
+                <div class="result_block_header">
+                    <h3>BMW X3 почему бы и нет?</h3>
+
+                </div>
+                <div class="result_block_content">
+                    <p>Рестайлинг BMW X3 модификация с объемом до 3 литров========================================</p>
+                    <p>Рестайлинг BMW X3 модификация с объемом до 3 литров</p>
+                </div>
+            </div>
+            <div class="search_result_block">
+                <div class="result_block_header">
+                    <h3>BMW X3 почему бы и нет?</h3>
+
+                </div>
+                <div class="result_block_content">
+                    <p>Рестайлинг BMW X3 модификация с объемом до 3 литров ========================================</p>
+                    <p>Рестайлинг BMW X3 модификация с объемом до 3 литров</p>
+                </div>
+            </div>
+
+        </div>
+        <!-- ======PAGE browse========-->
+        <div class="page_browse">
+            <div id="pb_title">
+                <p>Страницы :</p>
+            </div>
+            <div id="pb_count">
+                <ul class="pb_count_ul">
+                    <li>
+                        <a href="#"> 1 </a>
+                    </li>
+                    <li>
+                        <a href="#"> ... </a>
+                    </li>
+                    <li>
+                        <a href="#"> 2 </a>
+                    </li>
+                    <li>
+                        <a href="#"> ... </a>
+                    </li>
+                    <li>
+                        <a href="#"> 3 </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="pb_total">
+                <span>Результатов поиска :</span>
+                <span class="advert_total_count">465213</span>
+            </div>
         </div>
 
         <!-- =======SPECIAL OFFER=========-->

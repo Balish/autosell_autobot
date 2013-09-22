@@ -1320,6 +1320,7 @@ input[type="email"]:hover{
     font-size: 15px;
     font-family: helvetica, serif;
     text-decoration: none;
+    font-weight: bold;
     vertical-align: middle;
     cursor: pointer;
 }
@@ -1619,6 +1620,13 @@ input[type="email"]:hover{
     text-decoration:underline;
 }
 
+.page_browse{
+    position: relative;
+    margin: 20px auto;
+    padding: 0px 30px;
+    border-bottom:1px #bcbcbc solid;
+    border-top:1px #bcbcbc solid;
+}
 #pb_title{
     display: inline-block;
 }
@@ -1640,7 +1648,7 @@ input[type="email"]:hover{
 .pb_count_ul li a:hover{
     color: #1e90ff;
 }
-#advert_total{
+#pb_total {
     display: inline-block;
     position: relative;
     text-align: right;
@@ -1652,7 +1660,13 @@ input[type="email"]:hover{
     font-weight: bold;
 }
 /******************/
-
+.search_result_block{
+    position: relative;
+    float: left;
+    width: 98.88%;
+    min-height: 80px;
+    padding: 20px 0px;
+}
 /** BALISH STYLE END LIST SEARCH HERE **/
 
 /** Special Offers **/
