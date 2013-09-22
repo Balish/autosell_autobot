@@ -121,7 +121,7 @@
                     <img class="form_car_att" src="img/car_form_attention.png" title="Обязательно заполнить">
                 </div>
                 <div class="input_block">
-                    <span  class="car_form_label">VIN</span>
+                    <span  class="car_form_label2">VIN</span>
                     <input class="car_text_input" type="text"   id="car_VIN">
                 </div>
                 <div class="input_block">
@@ -159,10 +159,13 @@
                     </select>
                 </div>
                 <div class="input_80_block">
-                    <span  class="car_form_label">Требуемая запчасть</span>
+                    <span  class="car_form_label2">Требуемая запчасть</span>
                     <input class="car_text_input" type="text"   id="car_det_name">
-                    <span  class="car_form_underinfo">Введите название запчасти,например:левая фара 10233</span>
-                    <img class="form_car_att" src="img/car_form_attention.png" title="Обязательно заполнить">
+                    </br>
+                    <span  id="car_form_underinfo">Введите название запчасти,например:левая фара 10233
+                        <img class="form_car_att" src="img/car_form_attention.png" title="Обязательно заполнить">
+                    </span>
+
                 </div>
                 <div class="input_block">
                     <select list="car_status" class="car_select" name="car_status" title="Cостояние">
@@ -173,13 +176,16 @@
                     <img class="form_car_att" src="img/car_form_attention.png" title="Обязательно заполнить">
                 </div>
                 <div class="input_80_block">
-                    <span  class="car_form_label">Комментарий</span>
-                    <input class="car_text_input" type="text"   id="car_det_name">
-                    <span  class="car_form_underinfo">Введите если нужно, например : только рестайлинг</span>
+                    <span  class="car_form_label2">Комментарий</span>
+                    <input class="car_text_input" type="text"   id="car_det_comment">
+                    </br>
+                    <span  id="car_form_underinfo">Введите если нужно, например : только рестайлинг</span>
                 </div>
-                <div class="input_block">
-
-
+                <div class="input_80_block">
+                    <a href="#">
+                        <img src="img/car_add_+.png" id="car_radio_+">
+                        <span  class="car_form_label3">Добавить еще запчасть для поиска</span>
+                    </a>
                 </div>
             </form>
 

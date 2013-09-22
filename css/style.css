@@ -1243,6 +1243,7 @@ input[type="email"]:hover{
     font-size: 1.2em;
 }
 .car_form_label2{
+    width: 15%;
     display: inline-block;
     margin: 0px;
     position: relative;
@@ -1697,7 +1698,58 @@ input[type="email"]:hover{
     font-weight: bold;
 }
 /******************/
+/*  FIND DETAILS STYLE HERE **************/
+#car_det_name, #car_det_comment{
+    position: relative;
+    width: 79%;
+    padding: 5px;
+    border: none;
+    background-color: #3270a3;
+    -moz-box-shadow: 0 0 3px #121212;
+    -webkit-box-shadow: 0 0 3px #121212;
+    box-shadow: 0 0 3px #121212;
+    color: #bcbcbc;
+}
+#car_det_name:hover, #car_det_comment:hover,#car_VIN:hover{
+    background-color: #3f9edf;
+}
+#car_VIN{
+    position: relative;
+    background-color: #3270a3;
+    min-width: 42%;
+}
+.input_80_block{
+    position: relative;
+    float: left;
+    height: 44px;
+    width: 72.66%;
+    margin-top: 10px;
+}
+#car_form_underinfo{
+    display: inline-block;
+    position: relative;
+    width: 85%;
+    font-size: 1em;
+    text-align: center;
+}
+.input_80_block a{
+    display: block;
+    height: 34px;
+    color: white;
+    font-size: 1.3em;
 
+    vertical-align: middle;
+}
+.input_80_block a:hover{
+    color: #bfdfeb;
+}
+.car_form_label3{
+    padding-left: 10px;
+    width: 30%;
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+}
 /** BALISH STYLE END LIST SEARCH HERE **/
 
 /** Special Offers **/
