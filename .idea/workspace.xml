@@ -19,24 +19,24 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6506809">
+    <splitter split-orientation="horizontal" split-proportion="0.65068096">
       <split-first>
         <splitter split-orientation="vertical" split-proportion="0.5">
           <split-first>
             <leaf>
-              <file leaf-file-name="index-search.html" pinned="false" current="false" current-in-tab="false">
+              <file leaf-file-name="index-search.html" pinned="false" current="true" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/index-search.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="145" column="20" selection-start="6219" selection-end="6230" vertical-scroll-proportion="9.846154">
+                    <state line="134" column="18" selection-start="6229" selection-end="6229" vertical-scroll-proportion="0.6219839">
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="index-list.html" pinned="false" current="true" current-in-tab="true">
+              <file leaf-file-name="index-list.html" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/index-list.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="255" column="34" selection-start="10805" selection-end="10997" vertical-scroll-proportion="0.6085791">
+                    <state line="102" column="41" selection-start="4624" selection-end="4624" vertical-scroll-proportion="-2.8461537">
                       <folding />
                     </state>
                   </provider>
@@ -62,9 +62,9 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1322" column="22" selection-start="24093" selection-end="24093" vertical-scroll-proportion="0.8124239">
+                <state line="1543" column="21" selection-start="31718" selection-end="31718" vertical-scroll-proportion="0.6041413">
                   <folding>
-                    <marker date="1379840807062" expanded="true" signature="589:641" placeholder="{...}" />
+                    <marker date="1379870148105" expanded="true" signature="589:641" placeholder="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -87,15 +87,14 @@
       <list>
         <option value="$PROJECT_DIR$/index-details.html" />
         <option value="$PROJECT_DIR$/index-list.html" />
-        <option value="$PROJECT_DIR$/index-search.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index-search.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
     <option name="y" value="41" />
-    <option name="width" value="1921" />
+    <option name="width" value="1920" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -198,13 +197,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="41" width="1921" height="1038" extended-state="1" />
+    <frame x="0" y="41" width="1920" height="1038" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10646187" sideWeight="0.2963801" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10646187" sideWeight="0.69570136" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10651828" sideWeight="0.2963801" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10651828" sideWeight="0.69570136" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -276,7 +275,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="1384" column="19" selection-start="26864" selection-end="26864" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1379840807062" expanded="true" signature="589:641" placeholder="{...}" />
+            <marker date="1379870148105" expanded="true" signature="589:641" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -304,7 +303,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="1353" column="20" selection-start="25945" selection-end="25945" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1379840807062" expanded="true" signature="589:641" placeholder="{...}" />
+            <marker date="1379870148105" expanded="true" signature="589:641" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -351,25 +350,25 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="41" selection-start="4624" selection-end="4624" vertical-scroll-proportion="-2.8461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1322" column="22" selection-start="24093" selection-end="24093" vertical-scroll-proportion="0.8124239">
+        <state line="1543" column="21" selection-start="31718" selection-end="31718" vertical-scroll-proportion="0.6041413">
           <folding>
-            <marker date="1379840807062" expanded="true" signature="589:641" placeholder="{...}" />
+            <marker date="1379870148105" expanded="true" signature="589:641" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index-search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="20" selection-start="6219" selection-end="6230" vertical-scroll-proportion="9.846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="255" column="34" selection-start="10805" selection-end="10997" vertical-scroll-proportion="0.6085791">
+        <state line="134" column="18" selection-start="6229" selection-end="6229" vertical-scroll-proportion="0.6219839">
           <folding />
         </state>
       </provider>
